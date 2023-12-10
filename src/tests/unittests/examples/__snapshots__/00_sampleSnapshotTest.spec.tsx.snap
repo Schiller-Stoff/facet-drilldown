@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`00_simpleSnapshotTest (no need for Enzyme): Snapshot tests are not recommended - Tests via Enzyme are better! 1`] = `
+<div
+  className="App"
+  data-test="component-app"
+>
+   
+  <header
+    className="App-header"
+  >
+    <h2>
+      React - Web Komponente Demo
+    </h2>
+    <p>
+      Dieser Paragraph wird von React gesteuert
+    </p>
+    <p>
+      Und zwar von der Demo Komponente
+    </p>
+    <p
+      className="paragraph"
+    >
+      Dieser Paragraph wird von einem css Modul gestyled
+    </p>
+    <p>
+      Momentaner Server als environment variable: 
+    </p>
+    <a
+      className="App-link"
+      href="https://reactjs.org"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      Learn React
+    </a>
+    <h2
+      data-test="counter-display"
+    >
+      The counter is currently: 
+      0
+    </h2>
+    <button
+      data-test="increment-button"
+      onClick={[Function]}
+    >
+      Increment Counter
+    </button>
+  </header>
+</div>
+`;
